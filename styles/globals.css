@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body,#__next { height: 100%; }
+
+/* Brand accents & small helpers */
+:root{
+  --accent-1: #06b6d4;
+  --accent-2: #3b82f6;
+}
+
+.bg-accent-gradient {
+  background: linear-gradient(90deg, var(--accent-1), var(--accent-2));
+}
